@@ -23,7 +23,7 @@ setup(
 
     entry_points={
         'wazo_admin_ui.plugins': [
-            'entity = entity.plugin:Plugin',
+            'wazo_plugind_admin_ui_entity_official = wazo_plugind_admin_ui_entity_official.plugin:Plugin',
         ]
     }
 )
